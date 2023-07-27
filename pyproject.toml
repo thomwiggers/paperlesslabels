@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "paperlesslabels"
+version = "0.1.0"
+description = ""
+authors = ["Thom Wiggers <thom@thomwiggers.nl>"]
+license = "CC0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+reportlab = "^4.0.4"
+reportlab-qrcode = "^0.1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
